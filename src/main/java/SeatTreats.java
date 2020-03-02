@@ -1,10 +1,10 @@
 public class SeatTreats {
 
     public static void main(String[] args) {
-        int treats = 15;
+        int treats = 14;
         int seats = 7;
         int draw = 3;
-        System.out.println("Last receiver gets :" + getLastReceiver(treats, seats, draw));
+        System.out.println("Last receiver is seat no. :" + getLastReceiver(treats, seats, draw));
         printTreatsGiven(treats, seats, draw);
     }
 
